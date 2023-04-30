@@ -29,6 +29,8 @@ pip3 install -r requirements.txt
 
 ## Inference using trained weights
 
+Inference time is about 7 hours for Kaggle’s hidden test dataset.  
+
 ```sh
 kaggle competitions download -c AI4Code
 kaggle datasets download vecxoz/model-codet5base
