@@ -45,7 +45,8 @@ On Kaggle choose P100 GPU notebook, attach 2 datasets [model-codet5base](https:/
 
 ## Create training data
 
-It takes about 2 hours to create the data.
+It takes about 3 hours to create the data on a GCP VM.  
+For some reason it may take much longer on Kaggle's latest notebook environment.  
 
 ```sh
 python3 create_data.py --data_dir=AI4Code --out_dir=ai4code-tfrec
