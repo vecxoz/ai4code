@@ -13,7 +13,9 @@ Inference: 2 cores, 12 GB RAM, P100
 **Software**  
 
 Ubuntu 18.04  
-Python 3.9  
+Python: 3.9.7  
+CUDA: 11.2 (for GPU inference)  
+cuDNN: 8.1.1 (for GPU inference)  
 
 ## Install
 In fact I used TF 2.8.0 for training, but newer versions should also be OK
